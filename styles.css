@@ -1,0 +1,208 @@
+:root {
+    --text-color: #555;
+    --neonLime: #C7F464;
+    --secondary-background-color: #f8f8fa;
+    --main-background-color: rgba(255, 255, 255, 0.5);
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* header styles */
+
+header {
+    height: 50rem;
+    margin: 0;
+    position: relative;
+}
+
+nav {
+    background-color: rgba(255,255,255, 0.2);
+    position: absolute;
+    top: 20px;
+    width: 80vw;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50px;
+    align-items: center;
+    box-shadow: 1px 2px 20px 2px #ffffff;
+    z-index: 1;
+}
+
+#background-imge  {
+    width: 100vw;
+    height:  50rem;
+    margin: 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container span {
+    font-size: 1.4em;
+    color: #ffffff;
+}
+
+#logo {
+    width: 80px; 
+    height: 80px;
+}
+
+#links-container {
+    margin-right: 20px;
+    width: 30rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#links-container a {
+    margin-left: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#links-container a:hover {
+    color: var(--neonLime);
+}
+
+.head-line {
+    position: absolute;
+    right: 20px;
+    top: 30rem;
+    line-height: 0.7;
+    width: 40vw;
+} 
+
+.head-line .title {
+    font-size: 5rem;
+    font-weight: bolder;
+    color: var(--neonLime);
+}
+
+.head-line p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    position: relative;
+    left: 5px;
+    line-height: 1;
+}
+
+/* about section */
+
+.white-section {
+    background: var(--main-background-color);
+    text-align: center;
+    width: 60vw;
+    margin: auto;
+    margin-top: 3rem;
+} 
+
+.sub-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #4A4A4A; 
+    letter-spacing: 1px;
+}
+
+.text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* services and solutions */
+
+#services {
+    margin-top: 10rem;
+    padding: 3rem;
+    text-align: center;
+    background-color: var(--secondary-background-color);
+    height: 30rem;
+} 
+
+#services .container {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    background-color: #fff;
+    box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+    transition: all 1s;
+}
+
+.card  img {
+    width: 50px;
+    height: 50px;
+}
+
+.card span {
+    color: var(--neonLime);
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+/* mission section  */
+
+#mission-section {
+    padding: 4rem 0;
+}
+
+/* footer */
+
+#contact-section {
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    height: 5rem;
+    background-color: var(--text-color);
+    color: var(--secondary-background-color);
+    margin: 0;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-container {
+    display: flex;
+    gap:20px;
+}
+
+.contact img  {
+    width: 20px;
+    height: 20px;
+}
+

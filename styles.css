@@ -7,15 +7,16 @@
 
 body {
     margin: 0;
-    overflow-x: hidden;
 }
 
 /* header styles */
 
 header {
-    height: 50rem;
+    height: 100vh;
     margin: 0;
     position: relative;
+    background: url("assets/images/banner.jpg");
+    background-size: cover;
 }
 
 nav {
@@ -35,19 +36,13 @@ nav {
     z-index: 1;
 }
 
-#background-imge  {
-    width: 100vw;
-    height:  50rem;
-    margin: 0;
-}
-
 .logo-container {
     display: flex;
     align-items: center;
 }
 
 .logo-container span {
-    font-size: 1.4em;
+    font-size: 1.4rem;
     color: #ffffff;
 }
 
@@ -76,8 +71,8 @@ nav {
 
 .head-line {
     position: absolute;
-    right: 20px;
-    top: 30rem;
+    right: 0.5rem;
+    bottom: 1rem;
     line-height: 0.7;
     width: 40vw;
 } 
@@ -129,7 +124,6 @@ nav {
     padding: 3rem;
     text-align: center;
     background-color: var(--secondary-background-color);
-    height: 30rem;
 } 
 
 #services .container {
@@ -180,9 +174,9 @@ nav {
 #contact-section {
     padding: 0 2rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
-    height: 5rem;
     background-color: var(--text-color);
     color: var(--secondary-background-color);
     margin: 0;
